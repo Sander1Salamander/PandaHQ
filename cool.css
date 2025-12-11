@@ -1,0 +1,23 @@
+.juice {
+    color: magenta;
+}
+
+body {
+    margin: 0;
+    background: url("https://img.freepik.com/free-photo/digital-art-portrait-adorable-pet-heaven_23-2151478742.jpg?semt=ais_hybrid&w=740&q=80") center/cover no-repeat fixed; 
+}
+
+
+
+.box {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: lightblue;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.ColorChanger {
+    background-color: lightgreen;
+}
