@@ -1,20 +1,15 @@
+*, *::before, *::after { box-sizing: inherit; }
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Schoolbell";
     color: white;
     margin: 0;
     background: url("https://img.freepik.com/free-photo/digital-art-portrait-adorable-pet-heaven_23-2151478742.jpg?semt=ais_hybrid&w=740&q=80") center/cover no-repeat fixed; 
 }
-
-.logo-text {
-    font-size: 33px;
-    width: 175px;
-    outline: white, 2px;
-    border-radius: 30px;
-    border: 2px solid white;
-    text-align: center;
-}
-
-
 .box {
     width: 80%;
     margin: 50px auto;
@@ -23,15 +18,45 @@ body {
     border-radius: 15px;
 }
 
-.ColorChanger {
-    background-color: lightgreen;
-} 
+.header {
+    background: #25146B;
+    width: auto; 
+    border: 2px solid magenta;
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
 
-@media screen and (max-width: 481px){
-    body {
-        min-width: 320px;
-        color: red;
-    }
+    padding: 14px 16px;
+}
 
+.logo-text {
+    font-size: 33px;
+    width: 185px;
+    border-radius: 30px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.categories {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .categories li {
+    float: left;
+    font-size: 18px;
+  }
+  
+  .categories li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
   }
