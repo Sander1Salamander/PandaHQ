@@ -8,20 +8,21 @@ body {
     font-family: "Schoolbell";
     color: white;
     margin: 0;
-    background: url("https://img.freepik.com/free-photo/digital-art-portrait-adorable-pet-heaven_23-2151478742.jpg?semt=ais_hybrid&w=740&q=80") center/cover no-repeat fixed; 
+    background: lightcoral; 
 }
 .box {
     width: 80%;
+    height: 500px;
     margin: 50px auto;
     background-color: #000235;
-    padding: 30px;
-    border-radius: 15px;
+    border-radius: 10px;
+    border-bottom: 5px solid lightblue;
 }
 
 .header {
     background: #25146B;
-    width: auto; 
-    border: 2px solid magenta;
+    width: 100%; 
+    border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 .container {
@@ -75,7 +76,8 @@ text-decoration: none;
     .burger {
         width: 46px;
         height: 42px;
-        left: 274px;
-        top: 8px;
+        margin: -20px;
+        margin-bottom: -15px;
+        padding: 0px;
     }
 }
