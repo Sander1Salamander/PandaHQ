@@ -48,15 +48,34 @@ body {
     overflow: hidden;
   }
   
-  .categories li {
-    float: left;
-    font-size: 18px;
-  }
-  
-  .categories li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
+.categories li {
+float: left;
+font-size: 18px;
+}
+
+.categories li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+@media screen and (min-width: 769px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .categories {
+        display: none;
+    }
+
+    .burger {
+        width: 46px;
+        height: 42px;
+        left: 274px;
+        top: 8px;
+    }
+}
