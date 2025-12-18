@@ -26,3 +26,12 @@ body {
 .ColorChanger {
     background-color: lightgreen;
 } 
+
+
+@media screen and (max-width: 481px){
+    .body {
+        min-width: 320px;
+        color: red;
+    }
+
+  }
