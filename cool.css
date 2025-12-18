@@ -29,7 +29,7 @@ body {
 
 
 @media screen and (max-width: 481px){
-    .body {
+    body {
         min-width: 320px;
         color: red;
     }
