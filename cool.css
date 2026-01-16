@@ -84,7 +84,7 @@ text-decoration: none;
     font-size: 3rem;
     transition: .3s ease;
 }
-
+ 
 .off-screen-menu.active {
     right: 0;
 }
