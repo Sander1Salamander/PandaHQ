@@ -2,10 +2,15 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("Orange Juice")
 });
 
-const hamMenu = document.querySelector('.ham-menu');
-const offScreenMenu = document.querySelector('.off-screen-menu');
+const hamburger = document.querySelector(".hamburger")
+const navMenu = document.querySelector(".nav-menu")
 
-hamMenu.addEventListener('click', () => {
-    hamMenu.classList.toggle('active');
-    offScreenMenu.classList.toggle('active');
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
 })
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active")
+    navMenu.classList.remove("active")
+}))

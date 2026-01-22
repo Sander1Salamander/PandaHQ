@@ -1,0 +1,26 @@
+<div id="spellcasting" class="box">        
+            <nav>
+                <div class="header-cont">
+                    <p class="logo-text">PandaHQ</p>
+                    <div class="categories">
+                        <li><a href="#about" onclick="showpage('about')">About</a></li>
+                        <li><a href="#useful-links" onclick="showpage('useful-links')">Useful Links</a></li>
+                        <li><a href="#projects" onclick="showpage('projects')">Projects</a></li>
+                        <li><a href="#contact" onclick="showpage('contact')">Contact</a></li>
+                    </div>
+                    <div class="off-screen-menu">
+                        <ul>
+                            <li>About</li>
+                            <li>Useful Links</li>
+                            <li>Projects</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="ham-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
